@@ -151,7 +151,7 @@ Scanners  Risk Engine  Auth System
 
 ## Login Page
 
-![Login](./assets/screenshots/loginpage.png)
+![Login Page](./assets/screenshots/loginpage.png)
 
 ---
 
@@ -163,19 +163,19 @@ Scanners  Risk Engine  Auth System
 
 ## Vendor Scan Page
 
-![Scan Page](./assets/screenshots/scanpage.png)
+![Vendor Scan](./assets/screenshots/scanpage.png)
 
 ---
 
 ## Scan Results
 
-![Results](./assets/screenshots/resultpage.png)
+![Scan Results](./assets/screenshots/resultpage.png)
 
 ---
 
 ## Scan History
 
-![History](./assets/screenshots/historypage.png)
+![Scan History](./assets/screenshots/historypage.png)
 ---
 
 # ⚡ Quick Start
