@@ -42,9 +42,11 @@ The platform then generates a consolidated cybersecurity risk score and severity
 # ✨ Core Features
 
 ## 🔍 Vendor Security Scanning
+
 Perform automated reconnaissance and security analysis against domains and external infrastructure.
 
 ### Included Security Checks
+
 - DNS & WHOIS Analysis
 - SSL/TLS Certificate Inspection
 - Security Header Validation
@@ -55,6 +57,7 @@ Perform automated reconnaissance and security analysis against domains and exter
 ---
 
 ## 📊 Risk Scoring Engine
+
 VendorGuard calculates a unified vendor risk score ranging from:
 
 | Score Range | Severity |
@@ -69,6 +72,7 @@ The scoring engine combines results from multiple scanners into a centralized se
 ---
 
 ## 📈 Interactive Dashboard
+
 Modern cyber-themed dashboard with:
 
 - Real-time scan metrics
@@ -80,6 +84,7 @@ Modern cyber-themed dashboard with:
 ---
 
 ## 🔐 Authentication & Security
+
 - JWT-based authentication
 - Secure password hashing
 - Protected API routes
@@ -88,6 +93,7 @@ Modern cyber-themed dashboard with:
 ---
 
 ## 🐳 Containerized Infrastructure
+
 Fully Dockerized architecture for:
 
 - Easy deployment
@@ -100,6 +106,7 @@ Fully Dockerized architecture for:
 # 🛠️ Technology Stack
 
 ## Backend
+
 - Python 3.11
 - FastAPI
 - SQLAlchemy
@@ -108,6 +115,7 @@ Fully Dockerized architecture for:
 - Passlib
 
 ## Frontend
+
 - React
 - Vite
 - TailwindCSS
@@ -115,6 +123,7 @@ Fully Dockerized architecture for:
 - Recharts
 
 ## Infrastructure
+
 - Docker
 - Docker Compose
 
@@ -123,7 +132,7 @@ Fully Dockerized architecture for:
 # 🏗️ System Architecture
 
 ```text
-Frontend (React + Tailwind)
+Frontend (React + TailwindCSS)
             │
             ▼
 Backend API (FastAPI)
@@ -134,3 +143,170 @@ Scanners  Risk Engine  Auth System
             │
             ▼
      PostgreSQL Database
+```
+
+---
+
+# 📸 Screenshots
+
+Add screenshots inside:
+
+`assets/screenshots/`
+
+Recommended screenshots:
+
+- Login Page
+- Dashboard
+- Vendor Scan Results
+- Scan History
+- Risk Analysis View
+
+Example image markdown:
+
+`![Dashboard](assets/screenshots/dashboard.png)`
+
+---
+
+# ⚡ Quick Start
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/rohithvandadi07-ux/vendorguard.git
+cd vendorguard
+```
+
+## 2. Configure Environment Variables
+
+```bash
+cp .env.example .env
+```
+
+## 3. Start the Platform
+
+```bash
+docker-compose up -d --build
+```
+
+## 4. Access the Platform
+
+### Frontend
+
+http://localhost
+
+### Backend API Docs
+
+http://localhost:8000/docs
+
+---
+
+# 📚 API Documentation
+
+VendorGuard uses FastAPI's automatic Swagger/OpenAPI documentation.
+
+## Available Endpoints
+
+### Authentication
+
+- `POST /api/auth/register`
+- `POST /api/auth/login`
+
+### Vendor Scanning
+
+- `POST /api/scans/run`
+- `GET /api/scans/history`
+
+---
+
+# 💻 Local Development
+
+## Backend
+
+```bash
+cd backend
+
+python -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+uvicorn main:app --reload
+```
+
+## Frontend
+
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+---
+
+# 🔮 Planned Roadmap
+
+## VendorGuard v2
+
+- Scheduled automated scans
+- PDF report export
+- Email notifications
+- Advanced SSL grading
+- Subdomain enumeration
+- WAF/CDN detection
+- CVE enrichment
+- Background scan workers
+- Redis & Celery integration
+- Vendor comparison analytics
+- Team/organization support
+
+---
+
+# 🎯 Product Vision
+
+VendorGuard aims to evolve into a modern Vendor Security Intelligence Platform capable of helping organizations:
+
+- Assess third-party security posture
+- Reduce supply chain cyber risks
+- Detect exposed infrastructure
+- Improve vendor trust evaluation
+- Automate security reconnaissance workflows
+
+---
+
+# ⚠️ Disclaimer
+
+VendorGuard is intended strictly for:
+
+- educational purposes
+- authorized security testing
+- internal infrastructure analysis
+
+Do NOT use this platform against systems you do not own or have explicit authorization to assess.
+
+---
+
+# 👨‍💻 Author
+
+Developed by Rohith V  
+Cybersecurity • AI/ML • Full-Stack Security Engineering
+
+---
+
+# ⭐ Support
+
+If you found this project useful:
+
+- Star the repository
+- Fork the project
+- Share feedback
+- Contribute improvements
+
+---
+
+<div align="center">
+
+### VendorGuard — Cybersecurity Intelligence for Modern Vendor Ecosystems
+
+</div>
