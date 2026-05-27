@@ -149,21 +149,33 @@ Scanners  Risk Engine  Auth System
 
 # 📸 Screenshots
 
-Add screenshots inside:
+## Login Page
 
-`assets/screenshots/`
+![Login](assets/screenshots/login.png)
 
-Recommended screenshots:
+---
 
-- Login Page
-- Dashboard
-- Vendor Scan Results
-- Scan History
-- Risk Analysis View
+## Dashboard
 
-Example image markdown:
+![Dashboard](assets/screenshots/dashboard.png)
 
-`![Dashboard](assets/screenshots/dashboard.png)`
+---
+
+## Vendor Scan
+
+![Scan](assets/screenshots/scan.png)
+
+---
+
+## Scan Results
+
+![Results](assets/screenshots/results.png)
+
+---
+
+## Scan History
+
+![History](assets/screenshots/history.png)
 
 ---
 
