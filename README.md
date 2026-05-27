@@ -151,31 +151,31 @@ Scanners  Risk Engine  Auth System
 
 ## Login Page
 
-![Login](assets/screenshots/loginpage.png)
+![Login](./assets/screenshots/loginpage.png)
 
 ---
 
 ## Dashboard
 
-![Dashboard](assets/screenshots/dashboard.png)
+![Dashboard](./assets/screenshots/dashboard.png)
 
 ---
 
 ## Vendor Scan Page
 
-![Scan Page](assets/screenshots/scanpage.png)
+![Scan Page](./assets/screenshots/scanpage.png)
 
 ---
 
 ## Scan Results
 
-![Results](assets/screenshots/resultpage.png)
+![Results](./assets/screenshots/resultpage.png)
 
 ---
 
 ## Scan History
 
-![History](assets/screenshots/historypage.png)
+![History](./assets/screenshots/historypage.png)
 ---
 
 # ⚡ Quick Start
